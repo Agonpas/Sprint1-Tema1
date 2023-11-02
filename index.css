@@ -95,7 +95,7 @@ section {
     padding: 15px;
     margin: 10px;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1024px) { /*version tablet*/
     .section2 {
         background-color: yellow;
         display: block; /* cambiamos a block para que los elementos aparezcan en columna*/
@@ -138,6 +138,13 @@ section {
         background:rgb(233, 199, 50);
         padding: 15px;
         margin: 15px;
+        width: auto;
+    }
+    .div3 {
+        
+        background-color: rgb(60, 60, 154);
+        padding: 15px 15px;
+        margin: 10px;
         width: auto;
     }
 }
