@@ -1,0 +1,183 @@
+body {
+    max-width: 1200px;
+    margin: auto;
+}
+section {
+    justify-content: space-between;
+    background-color: black;
+    padding: 30px;
+    margin: 20px;
+}
+.flex {
+    display: flex;
+}
+.section1 {
+    justify-content: space-between;
+    background-color: black;
+    padding: 30px;
+    margin: 20px;
+}
+.div1 { /*los parametros que ponemos aqui afectaran a los elemntos anidados dentro del div */
+    justify-content: space-between; /* Importante!!! esto nos justifica el espacio entre los elemntos dentro del div */
+    background-color: rgb(99, 95, 132);
+    padding: 15px 15px; /* aqui damos la distancia arriba y abajo en primer lugar y a izquierda y derecha*/
+    margin: 10px;
+}
+.p1 {
+    background: rgb(221, 120, 120);
+    padding: 15px;
+    margin: 10px;
+    width: auto;
+}
+.p2 {
+    background: rgb(221, 120, 120);
+    padding: 15px;
+    margin: 10px;
+    width: auto;
+}
+.div2 { /*los parametros que ponemos aqui afectaran a los elemntos anidados dentro del div */
+    justify-content: space-between; /* Importante!!! esto nos justifica el espacio entre los elemntos dentro del div */
+    background-color: rgb(243, 141, 45);
+    padding: 15px 15px; /* aqui damos la distancia arriba y abajo en primer lugar y a izquierda y derecha*/
+    margin: 10px;
+}
+.p3 {
+    background:rgb(233, 199, 50);
+    padding: 15px;
+    margin: 10px;
+    width: 100%;
+}
+.section2 {
+    justify-content: space-between;
+    background-color: black;
+    padding: 30px;
+    margin: 20px;
+}
+.div3 {
+    justify-content: space-between; 
+    background-color: rgb(69, 68, 70);
+    padding: 15px 15px;
+    margin: 10px;
+    width: 70%;
+}
+.div3a {
+    display: flex;
+}
+.div3b {
+    display: flex;
+}
+.div3c {
+    display: flex;
+}
+.div4 {
+    justify-content: space-around;
+    background-color: rgb(219, 73, 29);
+    padding: 15px 15px;
+    margin: 10px;
+    width: 30%;
+}
+.p4 {
+    background: rgb(70, 92, 212);
+    padding: 15px;
+    margin: 10px;
+    width: 50%;
+}
+.p5 {
+    background: rgb(115, 205, 215);
+    padding: 15px;
+    margin: 10px;
+    width: 100%;
+}
+.p6 {
+    background: rgb(231, 235, 112);
+    padding: 15px;
+    margin: 10px;
+}
+.section3 {
+    justify-content: space-between;
+    background-color: black;
+    padding: 30px;
+    margin: 20px;
+}
+.p7 {
+    background: rgb(215, 197, 115);
+    padding: 15px;
+    margin: 10px;
+}
+@media (max-width: 1024px) { /*version tablet*/
+    .section2 {
+        background-color: yellow;
+        display: block; /* cambiamos a block para que los elementos aparezcan en columna*/
+        padding: 30px;
+        margin: 20px;
+    }
+    .div3 {
+        justify-content: space-between; 
+        padding: 15px 15px;
+        margin: 10px;
+        width: auto;
+    }
+    .div4 {
+        justify-content: space-around;
+        padding: 15px 15px;
+        margin: 10px;
+        width: auto;
+    }
+}
+@media (max-width: 500px) {
+    .div1 {
+        display: block;
+    }
+    .p1 {
+        background: rgb(221, 120, 120);
+        padding: 15px;
+        margin: 15px;
+        width: auto;
+    }
+    .p2 {
+        background: rgb(221, 120, 120);
+        padding: 15px;
+        margin: 15px;
+        width: auto;
+    }
+    .div2 {
+        display: block;
+    }
+    .p3 {
+        background:rgb(233, 199, 50);
+        padding: 15px;
+        margin: 15px;
+        width: auto;
+    }
+    .div3 {
+        background-color: rgb(60, 60, 154);
+        padding: 15px 15px;
+        margin: 10px;
+        width: auto;
+    }
+    .div3a {
+        display: block;
+    }
+    .div3b {
+        display: block;
+    }
+    .p4 {
+        background: rgb(70, 212, 205);
+        padding: 15px;
+        margin: 20px 10px;
+        width: auto;
+    }
+    .div3c {
+        display: block;
+        width: auto;
+    }
+    .p5 {
+        background: rgb(174, 225, 231);
+        padding: 15px;
+        margin: 20px 10px;
+        width: auto;
+    }
+    .div4 {
+        background-color: rgb(219, 156, 29);
+    }
+}
