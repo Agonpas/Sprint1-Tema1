@@ -60,6 +60,15 @@ section {
     margin: 10px;
     width: 70%;
 }
+.div3a {
+    display: flex;
+}
+.div3b {
+    display: flex;
+}
+.div3c {
+    display: flex;
+}
 .div4 {
     justify-content: space-around;
     background-color: rgb(219, 73, 29);
@@ -115,7 +124,7 @@ section {
         width: auto;
     }
 }
-@media (max-width: 767px) {
+@media (max-width: 500px) {
     .div1 {
         display: block;
     }
@@ -141,10 +150,34 @@ section {
         width: auto;
     }
     .div3 {
-        
         background-color: rgb(60, 60, 154);
         padding: 15px 15px;
         margin: 10px;
         width: auto;
+    }
+    .div3a {
+        display: block;
+    }
+    .div3b {
+        display: block;
+    }
+    .p4 {
+        background: rgb(70, 212, 205);
+        padding: 15px;
+        margin: 20px 10px;
+        width: auto;
+    }
+    .div3c {
+        display: block;
+        width: auto;
+    }
+    .p5 {
+        background: rgb(174, 225, 231);
+        padding: 15px;
+        margin: 20px 10px;
+        width: auto;
+    }
+    .div4 {
+        background-color: rgb(219, 156, 29);
     }
 }
