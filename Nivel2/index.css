@@ -47,7 +47,7 @@ section {
     transition: color 0.3s; /*hacemos que el cambio de color no sea brusco*/
 }
 .botones-nav:hover {
-    color: rgb(240, 138, 50);
+    color: rgb(233,116,101)
 }
 .botones-nav i { /* esta clase se aplica a los elementos i (iconos)*/
     font-size: 20px; /* el tamaño del texto */
@@ -72,18 +72,18 @@ section {
     margin: 10px;
     width: 100%;
     font-size: 24px;
-    color: rgb(240, 138, 50);
+    color: rgba(233,116,101,0.75);
     text-align: center;
 }
 .section2 {
     justify-content: space-between;
-    background-color: black;
-    padding: 30px;
+    background-color: rgb(188, 187, 187);
+    padding: 5px;
     margin: 20px;
 }
 .div3 {
     justify-content: space-between; 
-    background-color: rgb(69, 68, 70);
+    background-color: rgb(227, 224, 224);
     padding: 15px 15px;
     margin: 10px;
     width: 70%;
@@ -99,25 +99,30 @@ section {
 }
 .div4 {
     justify-content: space-around;
-    background-color: rgb(219, 73, 29);
+    background-color: rgb(227, 224, 224);
     padding: 15px 15px;
     margin: 10px;
     width: 30%;
 }
 .p4 {
+    justify-content: center;
     background: rgb(70, 92, 212);
     padding: 15px;
     margin: 10px;
     width: 50%;
 }
+.negrita {
+    font-weight: bold;
+}
 .p5 {
-    background: rgb(115, 205, 215);
+    background: rgb(188, 187, 187);;
     padding: 15px;
     margin: 10px;
     width: 100%;
 }
 .p6 {
-    background: rgb(231, 235, 112);
+    background: transparent;
+    text-align: center;
     padding: 15px;
     margin: 10px;
 }
