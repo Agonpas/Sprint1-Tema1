@@ -12,40 +12,68 @@ section {
     display: flex;
 }
 .section1 {
+    background-image: url('header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; /* Centra la imagen tanto horizontal como verticalmente */
     justify-content: space-between;
     background-color: black;
     padding: 30px;
     margin: 20px;
 }
-.div1 { /*los parametros que ponemos aqui afectaran a los elemntos anidados dentro del div */
+.cabecera { /*los parametros que ponemos aqui afectaran a los elemntos anidados dentro del div */
     justify-content: space-between; /* Importante!!! esto nos justifica el espacio entre los elemntos dentro del div */
-    background-color: rgb(99, 95, 132);
+    align-items: center;
+    background-color: transparent;
     padding: 15px 15px; /* aqui damos la distancia arriba y abajo en primer lugar y a izquierda y derecha*/
     margin: 10px;
 }
-.p1 {
-    background: rgb(221, 120, 120);
+.logo {
+    background:transparent;
     padding: 15px;
     margin: 10px;
     width: auto;
 }
-.p2 {
-    background: rgb(221, 120, 120);
+.navegacion {
+    background:transparent;
     padding: 15px;
     margin: 10px;
     width: auto;
+}
+.botones-nav {
+    margin: 0 20px;
+    color: gray;
+    text-decoration: none;
+    transition: color 0.3s; /*hacemos que el cambio de color no sea brusco*/
+}
+.botones-nav:hover {
+    color: rgb(240, 138, 50);
+}
+.botones-nav i { /* esta clase se aplica a los elementos i (iconos)*/
+    font-size: 20px; /* el tamaño del texto */
+    margin-right: 5px; /* el espacio entre icono y su respectivo texto*/    
+}
+.redes-sociales {
+    display: flex;
+    margin: 0 5px;
+    font-size: 24px;
+    color: gray;
+    text-decoration: none;
 }
 .div2 { /*los parametros que ponemos aqui afectaran a los elemntos anidados dentro del div */
     justify-content: space-between; /* Importante!!! esto nos justifica el espacio entre los elemntos dentro del div */
-    background-color: rgb(243, 141, 45);
+    background-color: transparent;
     padding: 15px 15px; /* aqui damos la distancia arriba y abajo en primer lugar y a izquierda y derecha*/
     margin: 10px;
 }
 .p3 {
-    background:rgb(233, 199, 50);
+    background:transparent;
     padding: 15px;
     margin: 10px;
     width: 100%;
+    font-size: 24px;
+    color: rgb(240, 138, 50);
+    text-align: center;
 }
 .section2 {
     justify-content: space-between;
