@@ -19,7 +19,7 @@ section {
     justify-content: space-between;
     background-color: black;
     padding: 30px;
-    margin: 20px;
+    margin: 10px 20px;
 }
 .cabecera { /*los parametros que ponemos aqui afectaran a los elemntos anidados dentro del div */
     justify-content: space-between; /* Importante!!! esto nos justifica el espacio entre los elemntos dentro del div */
@@ -59,6 +59,10 @@ section {
     font-size: 24px;
     color: gray;
     text-decoration: none;
+    transition: color 0.3s; /*hacemos que el cambio de color no sea brusco*/
+}
+.redes-sociales:hover {
+    color: rgb(233,116,101);
 }
 .div2 { /*los parametros que ponemos aqui afectaran a los elemntos anidados dentro del div */
     justify-content: space-between; /* Importante!!! esto nos justifica el espacio entre los elemntos dentro del div */
@@ -79,7 +83,7 @@ section {
     justify-content: space-between;
     background-color: rgb(188, 187, 187);
     padding: 5px;
-    margin: 20px;
+    margin: 10px 20px;
 }
 .div3 {
     justify-content: space-between; 
@@ -106,16 +110,33 @@ section {
 }
 .p4 {
     justify-content: center;
-    background: rgb(70, 92, 212);
+    background: rgb(188, 187, 187);
     padding: 15px;
     margin: 10px;
     width: 50%;
+}
+.p4 img{
+    width: 100%; /*hacemos que la imagen ocupe todo el ancho de su contenedor*/
+    height: auto; /*mantenmos la relación de aspecto de la foto original*/
+}
+.titulo-articulo {
+    width: auto; /* Asegura que tenga el mismo ancho que la foto */
+    background-color: rgb(233,116,101);
+    color: white; /* Color del texto */
+    text-align: left; /* Centra el texto horizontalmente */
+    padding: 10px; /* Espaciado interior */
+}
+.texto-articulo {
+    column-count: 2; /*esto controla el numero de columnas para el texto*/
+    column-gap: 10px; /*aqui controlamos el espacio entre columnas*/
 }
 .negrita {
     font-weight: bold;
 }
 .p5 {
-    background: rgb(188, 187, 187);;
+    background: transparent;
+    text-align: center;
+    font-weight: bold;
     padding: 15px;
     margin: 10px;
     width: 100%;
@@ -128,21 +149,22 @@ section {
 }
 .section3 {
     justify-content: space-between;
-    background-color: black;
-    padding: 30px;
-    margin: 20px;
+    background-color: rgb(188, 187, 187);
+    padding: 0 5px;
+    margin: 10px 20px;
 }
 .p7 {
-    background: rgb(215, 197, 115);
+    background: rgb(227, 224, 224);
+    text-align: center;
     padding: 15px;
     margin: 10px;
 }
 @media (max-width: 1024px) { /*version tablet*/
     .section2 {
-        background-color: yellow;
+        background-color: rgb(188, 187, 187);
         display: block; /* cambiamos a block para que los elementos aparezcan en columna*/
-        padding: 30px;
-        margin: 20px;
+        padding: 5px;
+        margin: 10px 20px;
     }
     .div3 {
         justify-content: space-between; 
